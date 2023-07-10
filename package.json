@@ -10,17 +10,26 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@joi/date": "^2.1.0",
+    "bcrypt": "^5.1.0",
     "body-parser": "^1.20.2",
     "concurrently": "^8.2.0",
     "config": "^3.3.9",
     "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "fawn": "^2.1.5",
     "joi": "^17.9.2",
     "joi-objectid": "^4.0.2",
+    "joi-phone-number": "^5.1.1",
+    "joi-tz": "^4.1.1",
+    "jsonwebtoken": "^9.0.1",
     "lodash": "^4.17.21",
+    "nodemailer": "^6.9.3",
     "nodemon": "^3.0.1",
     "pg": "^8.11.1",
-    "sequelize": "^6.32.1"
+    "sequelize": "^6.32.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
   }
 }
